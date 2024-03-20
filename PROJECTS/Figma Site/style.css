@@ -1,8 +1,191 @@
-#one{
-    background-color: rgb(15, 225, 15);
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+.container
+{
+    height: 955px;
+    width: 450px;
+    background-color: #ffffff;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 24px 32px;
+}
+.head
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 8px; */
+}
+.dotborder{
+    display: flex;
+    width: 51px;
+    height: 1px;
+    border: 1px dashed #191D23;
+}
+.signup{
+    display: flex;
+}
+.headdesign{
+    display: flex;
+    gap: 8px;
+}
+.signup button{
+    height: 24px;
+    width: 24px;
+    background-color: #047857;
+    border: 1px solid #A0ABBB;
+    border-radius: 2px;
+    color: #ffffff;
+}
+.signup2 button{
+    height: 24px;
+    width: 24px;
+    background-color: #ffffff;
+    border: 1px solid #A0ABBB;
+    border-radius: 2px;
+}
+.title{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.paralarge{
+    font-size: 22px;
+    font-weight: 600;
+    color: #191D23;
+}
+.parasmall{
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748B;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company{
+    display: flex;
+    gap: 4.61px;
+    background-color: #E7EAEE;
+    height: 20.3PX;
+    width: 103.3;
+}
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.line{
+    display: flex;
+    width: 91px;
+    height: 1px;
+    border: 1px solid #191D23;
+
+}
+.name{
+    display: flex;
+    gap: 13px;
+}
+.boxname{
+    color: #64748b;
+    height: 19px;
+    width: 100px;
+    background-color: white;
 }
 
-.conatiner{
-    display:flex;
-    align-items: center;
+.name{
+    column-gap: 150px;
+
+
 }
+
+.boxname{
+    height: 25px;
+    width: 120px;
+}
+#email{
+    padding-top: 30px;
+}
+
+.boxnameemail{
+    height: 25px;
+    width: 391px;
+    border-radius: 2px;
+
+}
+.apple-company{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    gap: 12px;
+
+}
+.rem{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.how{
+    padding-top: 30px; 
+}
+
+.options{
+    padding-top: 10px;
+}
+
+.signu{
+    background-color: #047857;
+    color: white;
+    text-align: center;
+    
+   
+}
+
+#submits{
+    height: 30px;
+    width: 391px;
+    background-color: #047857;
+    
+
+}
+
+#textsignup{
+    color: white;
+}
+
+.already{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#account{
+    justify-content: space-between;
+}
+/* .details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
