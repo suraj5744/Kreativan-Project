@@ -1,0 +1,8 @@
+#one{
+    background-color: rgb(15, 225, 15);
+}
+
+.conatiner{
+    display:flex;
+    align-items: center;
+}

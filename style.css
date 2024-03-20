@@ -102,7 +102,10 @@ h1{
 }
    
 
-
+.gender{
+    display: flex;
+    flex-direction:row;
+}
 
 
 
