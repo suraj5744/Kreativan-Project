@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="forms">
+
+    <div class="box">
+        <h1 style="text-align: center; color: rgb(255, 255, 255);">WELCOME</h1>
+
+
+        <h3 style="text-align: center;">Don't have an account &nbsp; <a
+                href="C:\Users\Mahi\OneDrive\Desktop\Kreativan Tech\signup.html" target="_blank"><input type="Button"
+                    value="Signup"> </h3></a>
+
+
+
+        <form onsubmit="return mydata()" action="C:\Users\Mahi\OneDrive\Desktop\FormValidation\abc.html">
+            <div style="text-align: center;">
+                <label for="email">Username</label> <br>
+                <input type="email" name="email" id="n1">
+            </div>
+            <br>
+
+            <div style="text-align: center;">
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" id="n2">
+            </div>
+            <br>
+
+            <div style="text-align: center;">
+                <input type="submit" value="login" onclick="mydata()">
+            </div>
+
+
+
+            <script>
+                function mydata() {
+                    var a = document.getElementById("n1").value;
+                    var a = document.getElementById("n2").value;
+
+                    if (a == "" || b == "") {
+                        alert("All fields are mendatory");
+                        return false;
+                    }
+                    else {
+                        true;
+                    }
+                }
+            </script>
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>
