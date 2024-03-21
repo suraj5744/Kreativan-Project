@@ -88,12 +88,15 @@ body{
 }
 
 #searc{
-    height:40px;
-    width: 40px;
+    height:60px;
+    width: 60px;
+    padding-top: 4px;
 }
 
 .registration{
     display: flex;
+    
+
     
     
 }
@@ -103,8 +106,8 @@ body{
     color: white;
     display: flex;
     border-radius: 5%;
-    height: 50px;
-    width: 164px;
+    height: 58px;
+    width: 188px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -127,4 +130,36 @@ body{
     color: rgb(44, 44, 49);
     font-size: 42px;
        
+}
+.thirdcontainer{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+img{
+    height: 600px;
+    width: 600px;
+    display: flex;
+   
+    
+
+}
+.details{
+
+    height: 600px;
+    width: 600px;
+    font-size: 25px;
+    display: flex;
+    gap: 60px;
+    
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#highlight{
+    font-weight: bold;
 }
