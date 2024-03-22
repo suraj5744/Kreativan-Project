@@ -11,7 +11,7 @@ body{
 
 .container{
     background-color: rgb(255, 253, 253);
-    height: 16%;
+    height: 15vh;
     width: 100%;
 }
    
@@ -150,9 +150,9 @@ img{
 }
 .details{
 
-    height: 600px;
-    width: 600px;
-    font-size: 25px;
+    height: 580px;
+    width: 580px;
+    font-size: 24px;
     display: flex;
     gap: 60px;
     
@@ -162,4 +162,209 @@ img{
 
 #highlight{
     font-weight: bold;
+}
+
+.fourthcontainer{
+    
+    display: flex;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    
+    gap: 50px;
+    
+}
+
+
+#pict{
+    height: 70px;
+    width: 90%;
+    display: flex;
+    align-content:space-between;
+    
+    
+}
+
+#buto{
+    display: flex;
+    border: none;
+    
+}
+#pict
+{
+    opacity: 0.5;
+}
+#pict:hover{
+    opacity: 1;
+}
+
+#span{
+    font-weight: bold;
+    color: rgb(44, 49, 52);
+}
+
+
+
+
+
+
+@media (max-width:640px){
+    .box{
+        background-color: black;
+    }
+    .container{
+        background-color: rgb(255, 253, 253);
+        height: 7vh;
+        width: 50%;
+    }
+       
+    .box{
+        background-color: rgb(5, 94, 195);
+        height: 50px;
+        width: 50px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    .dot{
+        display: flex;
+        height: 5px;
+        width: 12px;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        border-radius: 25%;
+        gap: 2px;
+        
+    
+        
+    
+    }
+    
+    
+    .one{
+        height:4px;
+        width:4px;
+        border-radius: 50%;
+        background-color: rgb(253, 249, 249);
+        display: flex;
+        
+        
+    }
+    
+    .leftheader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 18px;
+    }
+    
+    .middleheader{
+        display: flex;;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+        font-size: 7px;
+        font-weight:lighter;
+    }
+    
+    .rightheader{
+        display: flex;
+        gap: 5px;
+        padding-right: 10px;
+    }
+    
+    .header{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+    
+        
+    }
+    
+    #image{
+      height: 32px;
+      width: 120px;
+    }
+    
+    #searc{
+        height:30px;
+        width: 30px;
+        padding-top: 2px;
+    }
+    
+    .registration{
+        display: flex;
+        
+    
+        
+        
+    }
+    
+    #formbutton{
+        background-color: rgb(0, 8, 255);
+        color: white;
+        display: flex;
+        border-radius: 5%;
+        height: 29px;
+        width: 160px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        text-decoration: none;
+    
+        
+    }
+    .contcontainer{
+        background-color: rgb(253, 252, 252);
+        height: 20%;
+        width: 100%;
+        align-items: center;
+        padding-top: 4%;
+    
+    }
+    #texth{
+        display: flex;
+        justify-content: center;
+        color: rgb(44, 44, 49);
+        font-size: 21px;
+           
+    }
+    .thirdcontainer{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    img{
+        height: 300px;
+        width: 300px;
+        display: flex;
+       
+        
+    
+    }
+    .details{
+    
+        height: 300px;
+        width: 300px;
+        font-size: 12px;
+        display: flex;
+        gap: 30px;
+        
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    
+    #highlight{
+        font-weight: bold;
+    }
 }
