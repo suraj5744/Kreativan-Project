@@ -78,6 +78,7 @@ body{
     display: flex;
     justify-content:space-between;
     align-items:center;
+    
 
     
 }
@@ -176,6 +177,10 @@ img{
     
 }
 
+.nexttext{
+
+}
+
 
 #pict{
     height: 70px;
@@ -190,6 +195,7 @@ img{
     display: flex;
     border: none;
     
+    
 }
 #pict
 {
@@ -203,6 +209,242 @@ img{
     font-weight: bold;
     color: rgb(44, 49, 52);
 }
+
+.fifthcontainer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* gap: 10px; */
+    /* background: #000; */
+
+}
+
+.faqbox{
+    height: 485px;
+    width: 100%;
+    background-color: rgb(40, 90, 190);
+    position: relative;
+    z-index:1;
+    top: 30px;
+    left: 60px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    /* gap: 1.5rem; */
+}
+.video iframe{
+    height: 480px;
+    width: 800px;
+    display: flex;
+    border-radius: 0.5rem;
+    position: relative;
+    right: 30px;
+    
+}
+.video{
+    /* display: flex;
+    background-color: aqua;
+    justify-content: center;
+    height: 400px;
+    width: 684px;
+    position: relative; */
+   
+}
+
+.toggle{
+    display: flex;
+    flex-direction: column;
+    width: 90%; 
+    height: 50px;
+    /* padding-left: 60px; */
+    /* align-items: center;  */
+    background-color: white;
+     justify-content: center;  
+    /* justify-items: center; */
+    
+    
+    
+    
+   
+}
+.toggle button{
+    border: none;
+    
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+
+}
+.toggle img{
+    height: 22px;
+    width: 27px;
+    display: flex;
+    
+}
+
+#para{
+    font-size: 17px;
+    color: rgb(31, 38, 37);
+}
+.toggle-box{
+    
+    display: flex;
+    align-items: center;  
+    /* justify-content: center; */
+    gap: 1.5rem;
+    flex-direction: column;
+    padding-top: 30px;
+    /* background-color: yellowgreen; */
+    border: none;
+}
+
+.faq{
+    font-weight: bold;
+    font-size:xx-large;
+    padding-left: 60px;
+    padding-top: 40px;
+    color: aqua;
+    /* background-color: yellow; */
+
+}
+
+.among{
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    height: 12%;
+    width: 100%;
+    align-items: center;
+    padding-top:4%;
+}
+
+#amongtext{
+    font-size: 36px;
+    color: rgb(32, 41, 41);
+}
+
+.sixthcontainer{
+
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.nexttext{
+    height: 550px;
+    width: 505px;
+    font-size: 22px;
+    display: flex;
+    gap: 60px;
+    
+    margin-top: 50px;
+    
+}
+
+.sixthcontainer img{
+    height: 350px; 
+    width: 500px; 
+    display: flex;
+    
+   
+}
+
+#seconddetails{
+    word-spacing: 2px;
+    line-height: 32px;
+    display: flex;
+    
+
+}
+
+.sectioncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    /* height: 20vh; */
+    /* border: solid; */
+}
+
+.counternumbers {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 150px;
+    /* width: 100%; */
+    
+    
+    
+}
+
+.numbers {
+    display: flex;
+    
+    font-size: 70px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke:1px #005aac;
+    position: relative;
+    /* justify-content: space-evenly; */
+    
+    
+}
+
+.tags{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* align-items: center;  */
+    z-index:1;
+    top: -90px;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+
+}
+
+.section{
+    display: flex;
+    
+    flex-direction: column;
+   
+}
+
+.blog{
+    height: 60px;
+    width: 100%;
+    
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
