@@ -424,23 +424,282 @@ img{
 }
 
 .blog{
-    height: 60px;
+    height: 80px;
     width: 100%;
+    display: flex;
+    gap: 10px;
     
+    
+}
+
+.blogtext{
     font-weight: bold;
     font-size: 30px;
-    padding-left: 125px;
+    padding-left: 145px;
+    display: flex;
+}
+
+.newdot{
+    background-color: rgb(26, 120, 168);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-top: 15px;
+    
+    
+}
+
+.seventhcontainer{
+        
+        /* height: 800px; */
+        width: 100%;
+        
+        
+        
+        
+        
+
+}
+
+.top{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding-top: 20px;
+    justify-items: center;
+    
+    
+    
+
+     
+    
+
+}
+
+.mid{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+    
+    
+    
+    
+    
+}
+
+.bottom{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding-top: 30px;
+    
+
+}
+
+#ftext{
+   
+    font-weight: bold;
+    font-size: 22px;
+    
+    
+    
+}
+
+#stext{
+    height: 60px;
+    width: 350px;
+    font-weight: bold;
+    font-size: 22px;
+   
+    
+}
+
+#ltext{
+   
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.ekbox{
+    background-color:rgb(69, 73, 74);
+    height: 150px;
+    width: 350px;
+    color: white;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 29px;
+    padding-left: 20px;
+     word-spacing: 1px;
+    line-height: 30px;
+    
+
+}
+
+.dusrabox{
+    background-color:rgb(69, 73, 74);
+    height: 180px;
+    width: 350px;
+    color: white;
+    display: flex;
+    text-align: start;
+     align-items: center; 
+     /* justify-content: center; */ 
+     padding-left: 20px;
+     word-spacing: 1px;
+    line-height: 30px;
+    
+}
+
+ .bx{ 
+    
+    background-color:rgb(69, 73, 74);
+    height: 300px;
+    width: 350px;
+    color: white;
+    display: flex;
+    text-align: start;
+     align-items: center; 
+      justify-content: center;  
+     padding-left: 20px;
+     word-spacing: 1px;
+    line-height: 30px;
+    padding-top: 150px;
+}
+
+.eightcontainer{
+     /* height: 800px; */
+    width: 100%;
+    
+    display: flex;
+    padding-top: 100px;
+    align-content: center;
+    padding-left: 150px;
+    column-gap: 40px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+
+    
+    
+
+
+   
+}
+
+.lefteight{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lefteight img{
+    height: 70px;
+    width: 200px;
+}
+
+.notess{
+    word-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 550;
+    font-size: 15px;
+
+}
+
+.firsteight{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#our{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#ftt{
+    font-size: 18px;
+    color: #23bbe6;
+    font-weight: 600;
+
+}
+
+.secondeight{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.contact{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.email{
+    font-size: 18px;
+    color: #23bbe6;
+    font-weight: 600;
+
+}
+
+.addresss{
+    font-size: 18px;
+    color: #23bbe6;
+    font-weight: 600;
+
+}
+
+.tel{
+    font-size: 18px;
+    color: #23bbe6;
+    font-weight: 600;
+
+
+}
+
+.social{
+    font-size: 18px;
+    color: #23bbe6;
+    font-weight: 600;
+
+}
+
+.spannew{
+    color: black;
 }
 
 
 
 
+.righteight{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ourcompany{
+    font-size: 18px;
+    font-weight: 600;
+}
 
 
-
-
-
-
+.lastline{
+    font-size: 18px;
+    color: #23bbe6;
+    font-weight: 600;
+}
 
 
 
