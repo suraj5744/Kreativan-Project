@@ -2,15 +2,15 @@
 //  Solve  by Function
 
 // function countVowels(str){
-    // let count = 0;
+//     let count = 0;
 
-    // for(const char of str){
+//     for(const char of str){
 
-    //     if(char ==="a" || char ==="e" || char ==="i" || char ==="o" || char ==="u"){
-    //         count++;
-    //     }
-    // }
-    // console.log(count);
+//         if(char ==="a" || char ==="e" || char ==="i" || char ==="o" || char ==="u"){
+//             count++;
+//         }
+//     }
+//     console.log(count);
 // }
 
 // constVowels("suraj");
@@ -32,34 +32,34 @@
 
 //     countVow("srivastav");
 
-    // let arr=[1,2,3,4,5];
-    // arr.forEach(function printVal(val) {
-    //     console.log(val);
-    // });
+//     let arr=[1,2,3,4,5];
+//     arr.forEach(function printVal(val) {
+//         console.log(val);
+//     });
 
-    // let a = [1,2,3,4];
-    // let b = [4,5,6,7];
+//     let a = [1,2,3,4];
+//     let b = [4,5,6,7];
     
-    // console.log(a);
+//     console.log(a);
 
-    // alert("Suraj Kumar Srivastav");
+//     alert("Suraj Kumar Srivastav");
 
-    // let suraj = document.querySelector("#tag");
-    // suraj.innerText = "This is a new JavaScript page which is developed by SKS";
+//     let suraj = document.querySelector("#tag");
+//     suraj.innerText = "This is a new JavaScript page which is developed by SKS";
 
-    // let modeBtn = document.querySelector("#mode");
-    // let currMode = "light";
+//     let modeBtn = document.querySelector("#mode");
+//     let currMode = "light";
 
-    // modeBtn.addEventListener("click",() =>{
-    //     if(currMode === "light"){
-    //         currMode = "dark";
-    //         document.querySelector("body").style.backgroundColor = "yellow";
-    //     } else{
-    //         currMode ="light";
-    //         document.querySelector("body").style.backgroundColor = "red";
-    //     }
-    //     console.log(currMode);
-    // })
+//     modeBtn.addEventListener("click",() =>{
+//         if(currMode === "light"){
+//             currMode = "dark";
+//             document.querySelector("body").style.backgroundColor = "yellow";
+//         } else{
+//             currMode ="light";
+//             document.querySelector("body").style.backgroundColor = "red";
+//         }
+//         console.log(currMode);
+//     })
 
 
 
