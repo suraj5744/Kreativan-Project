@@ -52,9 +52,11 @@ const Login = () => {
     if(!checkUsername(value))
     {
       setIsUsernameValid((value)=>value=false);
+      console.log("No");
     }
     else{
       setIsUsernameValid((value)=>value=true);
+      console.log("Yes");
     }
     if(!checkPassword(pass))
     {
