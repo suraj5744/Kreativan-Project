@@ -1,0 +1,70 @@
+.project{
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(23, 213, 227);
+  height: 600px;
+  width: 500px;
+  
+
+}
+
+.working{
+  display: flex;
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(23, 213, 227);
+  /* height: 600px; */
+  width: 500px;
+  gap: 4rem;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#min{
+  font-size: large;
+  width: 4rem;
+  height: 3rem;
+  border-radius: 1rem;
+  
+}
+
+#rst{
+
+    
+    width: 6rem;
+    height: 3rem;
+    border-radius: 1rem;
+  
+}
+
+#max{
+  font-size: large;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+#txt{
+font-size: xx-large;
+
+}
+.plus{
+  color: red;
+}

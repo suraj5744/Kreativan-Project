@@ -1,0 +1,9 @@
+.grid{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2rem;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;  
+    cursor: pointer;
+}
